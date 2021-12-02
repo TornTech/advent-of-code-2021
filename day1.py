@@ -3,8 +3,7 @@ from typing import List
 
 def read_puzzle_input(path) -> List[int]:
     with open(path) as f:
-        contents = [line.strip() for line in f]
-    contents = [int(i) for i in contents]
+        contents = [int(line.strip()) for line in f]
     return contents
 
 
